@@ -112,6 +112,7 @@ copy-libs-to-resource:
 	-cp $(GRAALVM)/jre/bin/sunec.dll resources
 	-cp $(GRAALVM)/jre/lib/libsunec.dylib resources
 	-cp $(GRAALVM)/jre/lib/amd64/libsunec.so resources
+	-cp $(GRAALVM)/lib/libsunec.so resources
 
 linux-package:
 	-rm -rf build/linux-package
